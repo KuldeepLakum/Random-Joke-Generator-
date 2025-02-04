@@ -30,9 +30,13 @@ A fun and interactive web application that fetches random jokes from an external
 
 random-joke-generator/
 │
+
 ├── index.html # Main HTML file
+
 ├── style.css # Styling for the application
+
 ├── script.js # JavaScript functionality
+
 └── README.md # Project documentation
 
 ## How It Works 🛠️
