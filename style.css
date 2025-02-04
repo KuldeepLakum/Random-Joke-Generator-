@@ -1,0 +1,77 @@
+body {
+    font-family: "Comic Neue", cursive;
+    background: linear-gradient(135deg, #ff6b6b, #4ecdc4);
+    min-height: 100vh;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .container {
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 2rem;
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    width: 90%;
+    text-align: center;
+  }
+
+  h1 {
+    color: #2d3436;
+    margin-bottom: 1.5rem;
+  }
+
+  #joke {
+    margin: 2rem 0;
+    min-height: 120px;
+  }
+
+  #setup {
+    font-size: 1.5rem;
+    color: #2d3436;
+    margin-bottom: 1rem;
+  }
+
+  #punchline {
+    font-size: 1.3rem;
+    color: #e84393;
+    font-weight: bold;
+  }
+
+  #getJokeBtn {
+    background-color: #6c5ce7;
+    color: white;
+    border: none;
+    padding: 1rem 2rem;
+    border-radius: 25px;
+    font-size: 1.1rem;
+    cursor: pointer;
+    transition: transform 0.2s, background-color 0.2s;
+  }
+
+  #getJokeBtn:hover {
+    background-color: #5b4bc4;
+    transform: scale(1.05);
+  }
+
+  @media (max-width: 480px) {
+    .container {
+      padding: 1rem;
+    }
+
+    #setup {
+      font-size: 1.2rem;
+    }
+
+    #punchline {
+      font-size: 1.1rem;
+    }
+
+    #getJokeBtn {
+      padding: 0.8rem 1.5rem;
+      font-size: 1rem;
+    }
+  }
